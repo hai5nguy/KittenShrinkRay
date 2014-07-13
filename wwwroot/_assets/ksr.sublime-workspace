@@ -1,0 +1,376 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"https://sublime.wbond.net/alpha/packages.json"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Kitten/AppData/Local/Temp/Rar$DRa0.717/html5-boilerplate-4.3.0/index.html",
+		"/D/Mt. Mograph/_htm/01-2.htm",
+		"/D/Mt. Mograph/_htm/01-1.htm",
+		"/D/Mt. Mograph/_htm/02.htm",
+		"/D/Mt. Mograph/_htm/03.htm",
+		"/D/Mt. Mograph/_htm/04-1.htm",
+		"/D/Mt. Mograph/_htm/05.htm",
+		"/D/Mt. Mograph/_htm/04-2.htm",
+		"/D/Mt. Mograph/_htm/06.htm",
+		"/D/Mt. Mograph/_htm/07.htm",
+		"/D/Mt. Mograph/_htm/08.htm",
+		"/D/Mt. Mograph/_htm/09.htm",
+		"/D/Mt. Mograph/_htm/10.htm",
+		"/D/Mt. Mograph/_htm/11.htm",
+		"/D/Mt. Mograph/_htm/12.htm",
+		"/D/Mt. Mograph/_htm/13.htm",
+		"/D/Mt. Mograph/_htm/14.htm",
+		"/D/Mt. Mograph/_htm/15.htm",
+		"/D/Mt. Mograph/_htm/16.htm",
+		"/D/Mt. Mograph/_htm/17.htm",
+		"/D/Mt. Mograph/_htm/18.htm",
+		"/D/Mt. Mograph/_htm/19.htm",
+		"/D/Mt. Mograph/_htm/20.htm",
+		"/D/Mt. Mograph/_htm/21.htm",
+		"/D/Mt. Mograph/_htm/22.htm",
+		"/D/Mt. Mograph/_htm/23.htm",
+		"/D/Mt. Mograph/_htm/24.htm",
+		"/D/Mt. Mograph/_htm/25.htm",
+		"/D/Mt. Mograph/_htm/26.htm",
+		"/D/Mt. Mograph/_htm/27.htm",
+		"/D/Mt. Mograph/_htm/28.htm",
+		"/D/Mt. Mograph/_htm/29.htm",
+		"/D/Mt. Mograph/_htm/30.htm",
+		"/D/Mt. Mograph/_htm/31.htm",
+		"/D/Mt. Mograph/_htm/32.htm",
+		"/D/Mt. Mograph/_htm/33.htm",
+		"/D/Mt. Mograph/_htm/34.htm",
+		"/D/Mt. Mograph/_htm/35.htm",
+		"/D/Mt. Mograph/_htm/36.htm",
+		"/D/Mt. Mograph/_htm/37.htm",
+		"/D/Mt. Mograph/_htm/38.htm",
+		"/D/Mt. Mograph/_htm/39.htm",
+		"/D/Mt. Mograph/_htm/40.htm",
+		"/D/Mt. Mograph/_htm/41.htm",
+		"/D/Mt. Mograph/_htm/42.htm",
+		"/D/Mt. Mograph/_htm/43.htm",
+		"/D/Mt. Mograph/_htm/44.htm",
+		"/D/Mt. Mograph/_htm/template.htm",
+		"/D/Mt. Mograph/index.htm",
+		"/D/_Week 2/_style/style.css",
+		"/D/_Week 2/index.htm",
+		"/D/_Week 2/_htm/02colorgrading.htm",
+		"/D/_Week 2/_htm/noisereduction.htm",
+		"/D/Mt. Mograph/_style/style.css",
+		"/D/_Week 2/_style/fancybox.css",
+		"/D/_Week 2/_scripts/main.dev.js",
+		"/D/_Week 2/_scripts/fancybox.js",
+		"/C/Users/Kitten/Desktop/Pompeii (2014)-.srt",
+		"/C/Users/Kitten/Documents/My Dropbox/Public/temp/aegifs/gifs.htm",
+		"/C/Users/Kitten/Documents/My Dropbox/Public/temp/aegifs/main.dev.js",
+		"/C/Users/Kitten/Documents/My Dropbox/Public/temp/aegifs/style.css",
+		"/I/Mt. Mograph/_img/gifs.htm",
+		"/I/Mt. Mograph/_htm/01-1.htm",
+		"/I/Mt. Mograph/_style/style.css",
+		"/D/flashforward/_scripts/main.dev.js",
+		"/D/flashforward/_sass/_mediaqueries.sass",
+		"/D/flashforward/_sass/_videos.sass",
+		"/D/flashforward/_sass/_main.sass",
+		"/I/Mt. Mograph/index.htm",
+		"/I/Mt. Mograph/_scripts/main.js",
+		"/I/Mt. Mograph/_scripts/main.dev.js",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/_sass/_var.sass",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/_sass/_downloadbttn.scss",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/_sass/_mediaqueries.sass",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/_sass/style.scss",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/index.htm",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/_sass/_main.sass",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/_sass/_owl.theme.scss",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/_sass/_header.sass",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/_scripts/main.js",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/_scripts/main.dev.js",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/humans.txt",
+		"/C/Users/Kitten/Desktop/owl.carousel/demos/2.html",
+		"/C/Users/Kitten/Desktop/owl.carousel/owl-carousel/owl.carousel.js",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/_sass/_owl.carousel.scss",
+		"/C/Users/Kitten/Desktop/owl.carousel/demos/one.html",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/_sass/_footer.sass",
+		"/C/Users/Kitten/Documents/My Dropbox/HMN-TJW/Kitten Shrink Ray/wwwroot/_sass/_social.sass",
+		"/T/Movies/not watched/Thor 2 The Dark World (2013).srt",
+		"/C/Users/Kitten/Desktop/TJW_Boilerplate-master/index.htm",
+		"/C/Users/Kitten/Desktop/TJW_Boilerplate-master/_scripts/main.js",
+		"/C/Users/Kitten/Desktop/owl.carousel.js",
+		"/C/Users/Kitten/Desktop/TJW_Boilerplate-master/_scripts/main.dev.js",
+		"/C/Users/Kitten/Desktop/owl.carousel.min.js",
+		"/C/Users/Kitten/Desktop/TJW_Boilerplate-master/_style/style.css",
+		"/C/Users/Kitten/Desktop/owl.theme.css",
+		"/C/Users/Kitten/Desktop/TJW_Boilerplate-master/_scripts/owl.carousel.css",
+		"/C/Users/Kitten/Desktop/TJW_Boilerplate-master/json/data.json",
+		"/C/Users/Kitten/Desktop/TJW_Boilerplate-master/json/New Text Document.txt",
+		"/C/Users/Kitten/Desktop/Chief_Architect_Better_Homes_and_Gardens_Home_Designer_7.0.zip",
+		"/C/Users/Kitten/Desktop/Install.exe",
+		"/C/Users/Kitten/Desktop/Chief_Architect_Better_Homes_and_Gardens_Home_Designer_7.0.data",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/_sass/style.scss",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/_sass/_crossbrowser.sass",
+		"/C/Users/Kitten/Desktop/style.scss",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/_sass/_main.sass",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/_sass/_main.scss",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/notes.txt",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/index.htm",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/_sass/_meyer.sass",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/_sass/_mediaqueries.sass",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/_scripts/main.dev.js",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/_sass/_flyingfocus.sass",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/_sass/_normalize.sass",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/_sass/_var.sass",
+		"/C/Users/Kitten/Documents/GitHub/TJW Boilerplate/default.htm",
+		"/C/Users/Tutorials/Desktop/MySite/YouTube Notes.txt",
+		"/C/Users/Tutorials/Desktop/Cheeda Backup/Cheeda Backup Option 8.bat",
+		"/C/Users/Tutorials/Desktop/MySite/_sass/_main.scss",
+		"/C/Users/Tutorials/Desktop/MySite/_sass/_mediaqueries.scss",
+		"/C/Users/Tutorials/Desktop/MySite/_style/style.css",
+		"/C/Users/Tutorials/Desktop/MySite/_sass/_normalize.scss",
+		"/C/Users/Tutorials/Desktop/MySite/_sass/style.scss",
+		"/C/Portable Apps/Sublime Text 3/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Portable Apps/Sublime Text 3/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Tutorials/Desktop/test/_sass/_normalize.scss",
+		"/C/Users/Tutorials/Desktop/test/_sass/_vendor.bootstrap.scss",
+		"/C/Users/Tutorials/Desktop/MySite/_style/main.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"??",
+			"vid",
+			"h1",
+			";\n",
+			"@media",
+			"@media screen and (-webkit-min-device-pixel-ratio: 0){#flying-focus{box-s",
+			"font",
+			"#downloadcontainer",
+			".knobtton",
+			"gif",
+			"jpg",
+			"png",
+			"<!--\n",
+			"334488",
+			"348",
+			"elven",
+			"| ",
+			"\n[Wiki]",
+			"\n[IMDB]",
+			" |",
+			" - ",
+			"MOTW ",
+			"#### ",
+			"gif",
+			"png",
+			"gif",
+			"	",
+			"header-bottom-left",
+			"head",
+			"http://www.reddit.com/r/StencilTemplates/comments/",
+			" //",
+			"// ",
+			"Kitten",
+			"auto",
+			"009bdf"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#downloadbttn",
+			"#downloadcontainer",
+			"|",
+			"[Wiki]",
+			"[IMDB]",
+			"|",
+			"",
+			"|",
+			"http://stenciltemplates.reddit.com/comments/",
+			"  |",
+			"|  ",
+			"Cole-Cat"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "ksr.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

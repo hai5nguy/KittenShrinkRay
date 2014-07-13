@@ -1,0 +1,712 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:900);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*normalize.css v2.1.3|MIT License|git.io/normalize */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  background: transparent;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+mark {
+  background: yellow;
+  color: black;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-image: url("../_img/bggrad.png");
+  background-color: #37008a;
+  background-position: bottom center;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  color: #bb6e1a;
+}
+
+.bgburst {
+  position: absolute;
+  top: 0px;
+  max-width: 100%;
+  z-index: 0;
+}
+
+.floatright {
+  float: right;
+}
+
+.floatleft {
+  float: left;
+}
+
+.italic,
+.italics {
+  font-style: italic;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+a:link,
+a:visited {
+  color: #f06f61;
+}
+
+h1 {
+  display: inline;
+  font-size: 0px;
+  marign: 0px;
+  letter-spacing: 0px;
+}
+
+#Wrapper {
+  position: relative;
+  max-width: 1050px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+#downloadcontainer {
+  display: table-cell;
+  width: 300px;
+  height: 400px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#downloadbttn, #downloadbttn > div {
+  background: #ff6100;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #ff6100 0%, #9b0000 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ff6100), color-stop(100%, #9b0000));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ff6100 0%, #9b0000 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #ff6100 0%, #9b0000 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #ff6100 0%, #9b0000 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ff6100 0%, #9b0000 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff6100', endColorstr='#9b0000',GradientType=0 );
+  /* IE6-9 */
+}
+
+#downloadbttn, #downloadbttn *, #downloadbttn > * {
+  transition: All 0.2s ease-in-out;
+  -webkit-transition: All 0.2s ease-in-out;
+  -moz-transition: All 0.2s ease-in-out;
+  -o-transition: All 0.2s ease-in-out;
+}
+
+#downloadbttn {
+  display: block;
+  width: 280px;
+  height: 140px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 0.4em;
+  position: relative;
+  box-shadow: 0 -0.5em 0em 0px rgba(0, 0, 0, 0.8), 0 0.4em 0.5em 0px rgba(0, 0, 0, 0.7), 0 0.9em 0.7em 0px rgba(0, 0, 0, 0.5), 0 1.5em 1em 0px rgba(0, 0, 0, 0.5), inset 0px 0 10em 0px rgba(0, 0, 0, 0.9);
+}
+
+#downloadbttn > div {
+  position: absolute;
+  top: -5%;
+  left: 0.3%;
+  width: 99.4%;
+  height: 90%;
+  border-radius: 0.5em;
+  box-shadow: inset 0 1px 0 1px rgba(255, 255, 255, 0.2), inset 0 0 0 1px rgba(0, 0, 0, 0.4);
+}
+
+#downloadbttn > div::before {
+  position: absolute;
+  content: "";
+  top: 98%;
+  left: 0;
+  width: 100%;
+  height: 2%;
+  opacity: 0.5;
+  box-shadow: 0 -1px 0 1px rgba(0, 0, 0, 0.2);
+  background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 40%, white 60%, rgba(255, 255, 255, 0.03) 99%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(40%, white), color-stop(60%, white), color-stop(99%, rgba(255, 255, 255, 0.03)), color-stop(100%, rgba(255, 255, 255, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 40%, white 60%, rgba(255, 255, 255, 0.03) 99%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 40%, white 60%, rgba(255, 255, 255, 0.03) 99%, rgba(255, 255, 255, 0) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(255, 255, 255, 0) 0%, white 40%, white 60%, rgba(255, 255, 255, 0.03) 99%, rgba(255, 255, 255, 0) 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 40%, #ffffff 60%, rgba(255, 255, 255, 0.03) 99%, rgba(255, 255, 255, 0) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=1 );
+  /* IE6-9 */
+}
+
+#downloadbttn a {
+  -webkit-transition: 1000ms ease-out 1s;
+  -moz-transition: 1000ms ease-out 1s;
+  o-transition: 1000ms ease-out 1s;
+  transition: 1000ms ease-out 1s;
+  display: block;
+  padding-top: 2%;
+  width: 100%;
+  height: 100%;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 3.4em;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: #FFF;
+  opacity: 0.7;
+  text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.6);
+  text-decoration: none;
+}
+
+#downloadbttn > div:hover {
+  box-shadow: inset 0 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+#downloadbttn > div > div:hover {
+  box-shadow: inset 0px 0px 30px 5px rgba(255, 255, 255, 0.5);
+}
+
+#downloadbttn a:active {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+#downloadbttn:active {
+  box-shadow: 0 -0.1em 0em 0px rgba(0, 0, 0, 0.8), 0 0.5em 0.5em 0px rgba(0, 0, 0, 0.7), 0 0.5em 0.5em 0px rgba(0, 0, 0, 0.2), 0 0em 1em 0px rgba(0, 0, 0, 0.1), inset 0px 0 10em 1em black;
+}
+
+#downloadbttn > div:active {
+  top: 0;
+}
+
+#Header {
+  border: 0px;
+}
+#Header .logo {
+  display: block;
+  height: 275px;
+  margin: 20px auto 30px auto;
+}
+
+footer {
+  min-height: 150px;
+  padding: 10px;
+  background-color: #33195c;
+  margin: 50px 0px 0px 0px;
+}
+footer p {
+  line-height: 1.45em;
+}
+footer .legal {
+  font-size: 0.8em;
+}
+
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.2
+ */
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+/* display none until init */
+.owl-carousel {
+  display: none;
+  position: relative;
+  width: 100%;
+  -ms-touch-action: pan-y;
+}
+
+.owl-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item {
+  float: left;
+}
+
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+  cursor: pointer;
+}
+
+.owl-controls {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing {
+  cursor: url("../_img/grabbing.png") 8 8, move;
+}
+
+/* fix */
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.2
+*/
+.owl-theme .owl-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+.owl-theme .owl-controls .owl-buttons div {
+  color: #FFF;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /*IE7 life-saver */
+  margin: 5px;
+  padding: 3px 10px;
+  font-size: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background: #869791;
+  filter: Alpha(Opacity=50);
+  /*IE7 fix*/
+  opacity: 0.5;
+}
+
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+  filter: Alpha(Opacity=100);
+  /*IE7 fix*/
+  opacity: 1;
+  text-decoration: none;
+}
+
+/* Styling Pagination*/
+.owl-theme .owl-controls .owl-page {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /*IE7 life-saver */
+}
+
+.owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 5px 7px;
+  filter: Alpha(Opacity=50);
+  /*IE7 fix*/
+  opacity: 0.5;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  filter: Alpha(Opacity=100);
+  /*IE7 fix*/
+  opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+  height: auto;
+  width: auto;
+  color: #FFF;
+  padding: 2px 10px;
+  font-size: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading {
+  min-height: 150px;
+  background: url("../_img/ajaxloader.gif") no-repeat center center;
+}
+
+/* TJW */
+#owl-canvas {
+  display: table-cell;
+  width: 650px;
+  height: 400px;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-perspective: 800px;
+  perspective: 800px;
+}
+
+#owl-container {
+  display: block;
+  position: relative;
+  width: 650px;
+  height: 388px;
+  -webkit-transform-style: flat;
+  -webkit-transform: rotateX(7deg) rotateY(-20deg) translateZ(-10px);
+  transform-style: flat;
+  transform: rotateX(7deg) rotateY(-20deg) translateZ(-10px);
+}
+
+#owl-screenshots {
+  margin: 0px;
+  padding: 0px;
+  width: 650px;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: 0;
+  backface-visibility: hidden;
+  transform: 0;
+}
+#owl-screenshots .item img {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px #000;
+}
+
+#flying-focus {
+  position: absolute;
+  margin: 0px;
+  background: transparent;
+  -webkit-transition-property: left, top, width, height, opacity;
+  transition-property: left, top, width, height, opacity;
+  -webkit-transition-timing-function: cubic-bezier(0, 0.2, 0, 1);
+  transition-timing-function: cubic-bezier(0, 0.2, 0, 1);
+  visibility: hidden;
+  pointer-events: none;
+  box-shadow: 0 0 2px 3px #78aeda, 0 0 2px #78aeda inset;
+  border-radius: 2px;
+}
+
+#flying-focus.flying-focus_visible {
+  visibility: visible;
+  z-index: 9999;
+}
+
+.flying-focus_target {
+  outline: none !important;
+}
+
+.flying-focus_target::-moz-focus-inner {
+  border: 0px !important;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #flying-focus {
+    box-shadow: none;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -3px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  #downloadbttn a {
+    font-size: 1em;
+  }
+}

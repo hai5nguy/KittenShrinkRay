@@ -1,0 +1,61 @@
+
+// The main document, every page on the site refers to this basic document
+
+//*
+//    border: 1px solid #F00 !important
+
+*,
+*:before,
+*:after
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+html
+    +bmp0
+    width: 100%
+    height: 100%
+
+body
+    +bmp0
+    width: 100%
+    background-image: url('../_img/bggrad.png')
+    background-color: #37008A
+    background-position: bottom center
+    background-repeat: repeat-x
+    background-attachment: fixed
+    color: #BB6E1A
+
+.bgburst
+    position: absolute
+    top: 0px
+    max-width: 100%
+    z-index: 0
+
+.floatright
+    float: right
+.floatleft
+    float: left
+
+.italic,
+.italics
+    font-style: italic
+
+img
+    -ms-interpolation-mode: bicubic
+
+a:link,
+a:visited
+    color: #F06F61
+
+h1
+    display: inline
+    font-size: 0px
+    marign: 0px
+    letter-spacing: 0px
+
+#Wrapper
+    position: relative
+    max-width: 1050px
+    margin: 0 auto
+    z-index: 2
